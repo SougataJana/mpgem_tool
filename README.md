@@ -16,7 +16,7 @@ On the command line the tool is invoked as `mpgem qnorm`; in Python it is import
 From GitHub:
 
 ```
-pip install "git+https://github.com/<owner>/mpgem_tool.git"
+pip install "git+https://github.com/shandarcodes/MPGEM_NORM.git"
 ```
 
 numpy, pandas and scipy are installed automatically. Requires Python >= 3.10.
@@ -27,7 +27,7 @@ Optionally, in an isolated environment:
 ```
 conda create -n mpgem python=3.12 -y
 conda activate mpgem
-pip install "git+https://github.com/<owner>/mpgem_tool.git"
+pip install "git+https://github.com/shandarcodes/MPGEM_NORM.git"
 ```
 
 Check the install:
