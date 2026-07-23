@@ -2,17 +2,21 @@
 
 Tools for microarray / gene expression matrix processing.
 
-The package currently provides one tool, **qnorm**: reference quantile normalization
-of an expression matrix onto a fixed GPL570 reference distribution. Normalizing to a
-shared external reference (rather than within each dataset) makes values comparable
-across studies. All reference data is bundled with the package — nothing to download.
+The package currently provides one tool, **mpgemnorm**: reference quantile
+normalization of an expression matrix onto a fixed GPL570 reference distribution.
+Normalizing to a shared external reference (rather than within each dataset) makes
+values comparable across studies. All reference data is bundled with the package —
+nothing to download.
+
+On the command line the tool is invoked as `mpgem qnorm`; in Python it is imported as
+`mpgem.mpgemnorm`.
 
 ## Install
 
 From GitHub:
 
 ```
-pip install "git+https://github.com/SougataJana/mpgem_tool.git"
+pip install "git+https://github.com/<owner>/mpgem_tool.git"
 ```
 
 numpy, pandas and scipy are installed automatically. Requires Python >= 3.10.
@@ -23,7 +27,7 @@ Optionally, in an isolated environment:
 ```
 conda create -n mpgem python=3.12 -y
 conda activate mpgem
-pip install "git+https://github.com/SougataJana/mpgem_tool.git"
+pip install "git+https://github.com/<owner>/mpgem_tool.git"
 ```
 
 Check the install:
