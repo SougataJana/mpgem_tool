@@ -1,5 +1,7 @@
 # mpgem
 
+_This repository is a work in progress_ 
+
 Tools for microarray / gene expression matrix processing.
 
 The package currently provides one tool, **mpgemnorm**: reference quantile
